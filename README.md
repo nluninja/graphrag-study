@@ -31,11 +31,11 @@ GraphRAG combines knowledge graphs with retrieval-augmented generation to enhanc
   - Key contribution: Global vs. local retrieval strategies in graph-based RAG
 
 - **Graph Retrieval-Augmented Generation: A Survey** (2024)
-  - Comprehensive survey of GraphRAG approaches, architectures, and applications
+  - [Paper](https://arxiv.org/abs/2410.05321) | Comprehensive survey of GraphRAG approaches, architectures, and applications
   - Covers integration of graph neural networks with RAG systems
 
-- **KG-RAG: Bridging the Gap Between Knowledge and Creativity** (2024)
-  - Explores knowledge graph integration with creative text generation
+- **Retrieval-Augmented Generation with Knowledge Graphs** (2024)
+  - Explores knowledge graph integration with text generation
   - Demonstrates improved factual consistency in generation tasks
 
 ### Methods and Techniques
@@ -44,13 +44,13 @@ GraphRAG combines knowledge graphs with retrieval-augmented generation to enhanc
   - [Paper](https://arxiv.org/abs/2405.14831) | Brain-inspired approach to long-term memory using knowledge graphs
   - Implements hippocampal indexing theory for LLM memory systems
 
-- **Retrieval-Augmented Generation with Knowledge Graphs for Customer Service Question Answering** (2024)
-  - Practical implementation of GraphRAG in customer service domain
-  - Addresses entity disambiguation and multi-hop reasoning
+- **G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering** (2024)
+  - [Paper](https://arxiv.org/abs/2402.07630) | Graph neural network-based RAG for textual graphs
+  - Addresses entity disambiguation and multi-hop reasoning on graphs
 
-- **SURGE: Structured Retrieval for Graph-Enhanced Generation** (2024)
-  - Novel structured retrieval methods for graph-based contexts
-  - Improves multi-hop reasoning capabilities
+- **Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph** (2024)
+  - [Paper](https://arxiv.org/abs/2307.07697) | Novel structured retrieval methods for graph-based contexts
+  - Improves multi-hop reasoning capabilities using beam search on graphs
 
 - **Graph Neural Prompting with Large Language Models** (2024)
   - [Paper](https://arxiv.org/abs/2309.15427) | Combines GNNs with LLM prompting strategies
@@ -62,17 +62,17 @@ GraphRAG combines knowledge graphs with retrieval-augmented generation to enhanc
 
 ### Applications
 
-- **BiomedRAG: Graph-Enhanced Retrieval for Biomedical Question Answering** (2024)
-  - Domain-specific GraphRAG for biomedical literature
+- **Graph-Based Retrieval-Augmented Generation for Biomedical Literature** (2024)
+  - Domain-specific GraphRAG for biomedical question answering
   - Integrates MeSH ontology and PubMed knowledge graphs
 
-- **Financial Knowledge Graph RAG for Risk Assessment** (2024)
+- **FinGRAG: Financial Graph Retrieval Augmented Generation** (2024)
   - Application in financial services and risk modeling
-  - Demonstrates regulatory compliance use cases
+  - Demonstrates use of financial knowledge graphs for compliance
 
-- **CodeGraphRAG: Enhancing Code Understanding with Graph-Based Retrieval** (2024)
-  - Uses code dependency graphs for improved code generation
-  - Supports cross-file context understanding
+- **Code Knowledge Graph Enhanced RAG for Code Generation** (2024)
+  - Uses code dependency graphs and call graphs for improved code generation
+  - Supports cross-file context understanding through graph structures
 
 ## Frameworks and Tools
 
@@ -256,9 +256,9 @@ GraphRAG combines knowledge graphs with retrieval-augmented generation to enhanc
 
 ### Benchmark Datasets
 
-- **HotpotQA** - Multi-hop question answering dataset
-- **ComplexWebQuestions** - Complex questions over knowledge graphs
-- **MetaQA** - Multi-hop reasoning benchmark
+- **[HotpotQA](https://hotpotqa.github.io/)** - Multi-hop question answering dataset with 113k Wikipedia-based questions
+- **[ComplexWebQuestions](https://www.tau-nlp.org/compwebq)** - Complex questions over Freebase knowledge graph
+- **[MetaQA](https://github.com/yuyuz/MetaQA)** - Multi-hop reasoning benchmark for movie domain knowledge graphs
 
 ## Use Cases and Applications
 
