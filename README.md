@@ -148,6 +148,11 @@ GraphRAG combines knowledge graphs with retrieval-augmented generation to enhanc
   - Multiple storage backend support
   - Gremlin query language
 
+- **[HydraDB](https://hydradb.com/)** - Scalable graph database on object storage with automated graph creation for agent context and GraphRAG
+  - Built in Rust
+  - openCypher with Neo4j-compatible drivers
+  - Self-hosted or managed in HydraDB Cloud
+
 ### Visualization Tools
 
 - **[Neo4j Bloom](https://neo4j.com/product/bloom/)** - Graph visualization and exploration
